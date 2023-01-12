@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Manrope', sans-serif;
+}
+.header{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    padding: 25px 180px 25px 50px;
+}
+.topnav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.toplogo{
+    font-weight: 800;
+    font-size: 20px;
+    /* identical to box height */
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+.topmenu{
+    margin: 0;
+    padding: 0;
+}
+.topmenu ul{
+    list-style-type: none;
+    display: inline-block;
+}
+.topmenu ul li{
+    display: inline-block;
+}
+.topmenu ul li a{
+    text-decoration: none;
+    font-weight: 700;
+    padding: 15px;
+
+}
+.signin{
+    text-decoration: none;
+    font-weight: 700;
+    /* padding: 15px; */
+}
+.topmenubtn button{
+    margin-left: 10px;
+    padding: 16px 35px;
+    border: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    /* line-height: 19px; */
+    text-align: center;
+
+    color: #FFFFFF;
+    background-color: #4F46BA;
+    border-radius: 10px;
+}
