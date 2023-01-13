@@ -21,7 +21,6 @@ body{
 .toplogo{
     font-weight: 800;
     font-size: 20px;
-    /* identical to box height */
     text-align: center;
     text-transform: uppercase;
     color: #000000;
@@ -37,16 +36,29 @@ body{
 .topmenu ul li{
     display: inline-block;
 }
+
 .topmenu ul li a{
     text-decoration: none;
     font-weight: 700;
     padding: 15px;
+    
 
+}
+.topmenu ul li a:hover{
+    text-shadow: 0.5px 0.5px 20px black;
+    transition-duration: 0.3s;
+}
+.after-vector::after{
+    content: url(asset/images/Vector\ 3.png);
+    margin-left: -5px;
 }
 .signin{
     text-decoration: none;
     font-weight: 700;
-    /* padding: 15px; */
+}
+.signin:hover{
+    text-shadow: 0.5px 0.5px 20px black;
+    transition-duration: 0.3s;
 }
 .topmenubtn button{
     margin-left: 10px;
@@ -55,10 +67,183 @@ body{
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
-    /* line-height: 19px; */
     text-align: center;
-
     color: #FFFFFF;
     background-color: #4F46BA;
     border-radius: 10px;
+}
+.topmenubtn button:hover{
+    font-size: 14px;
+    /* padding: 17px 36px; */
+    transition-duration: 0.3s;
+    box-shadow: 0px 0px 15px black;
+}
+.polygon_5{
+    margin: -30px 0px;
+    float: left;
+}
+.hero-section{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items:center;
+}
+.hero-text{
+    position: relative;
+    width: 40%;
+}
+.hero-text h1{
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 74px;
+    letter-spacing: -0.03em;
+    color: #000000;
+    position: absolute;
+    top: 100px;
+}
+.hero-text p{
+    position: absolute;
+    top: 350px;
+    width: 75%;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    color: #64607D;
+}
+.hero-text button{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    background: #3734A9;
+    border-radius: 47px;
+    border: none;
+    padding: 15px 36px;
+    position: absolute;
+    top: 500px;
+    
+}
+.hero-text button:hover{
+    font-size: 16px;
+    padding: 16px 37px;
+    transition-duration: 0.3s;
+    box-shadow: 0px 0px 15px black;
+
+}
+.hero-text-works{
+    display: inline-block;
+    position: absolute;
+    width: 50%;
+    top: 500px;
+    left: 220px;
+
+}
+.rect88{
+    position: relative;
+}
+.poly2{
+    position: absolute;
+    top: 21px;
+    left: 24px;
+    z-index: 2;
+}
+.hero-text-works p{
+    font-weight: 600;
+    font-size: 17px;
+    color: #3734A9;
+    position: absolute;
+    top: 14px;
+    left: 75px;
+}
+.hero-form{
+    position: relative;
+}
+.hero-form p{
+    position: absolute;
+    top: 160px;
+    left: 100px;
+    width: 300px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height, or 125% */
+
+    letter-spacing: -0.02em;
+
+    /* Pallet 4 / Primary */
+
+    color: #3734A9;
+}
+.hero-form form input:first-child{
+    position: absolute;
+    top: 210px;
+    left: 120px;
+    padding: 10px 15px;
+    width: 350px;
+    background: #FFFFFF;
+    border: 1px solid #80828ae7;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+
+    letter-spacing: -0.02em;
+
+    color: #64607D;
+
+    opacity: 0.4;
+
+
+}
+#password{
+    position: absolute;
+    top: 280px;
+    left: 120px;
+    padding: 10px 15px;
+    width: 350px;
+    background: #FFFFFF;
+    border: 1px solid #80828ae7;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+
+    letter-spacing: -0.02em;
+
+    color: #64607D;
+
+    opacity: 0.4;
+}
+#hero-form-btn{
+    position: absolute;
+    top: 350px;
+    left: 120px;
+    width: 350px;
+    padding: 10px 15px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+    background: #FF7F5C;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    color: #FFFFFF;
+}
+.polygon_5_2{
+    margin: 65px 0px;
+    float: left;
+    clear: left;
+}
+.vec1577{
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
 }
